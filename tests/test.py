@@ -13,7 +13,7 @@ class TestCases(unittest.TestCase):
 	'''
 	
 	def test_noop(self):
-		self.assertEqual(no_op(10),20)
+		self.assertEqual(code.no_op(10),20)
 
 if __name__ == "__main__":
 	unittest.main()
