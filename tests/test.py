@@ -11,6 +11,9 @@ class TestCases(unittest.TestCase):
 	Add your own test cases here
 	function name must start with test_
 	'''
+	
+	def test_noop(self):
+		self.assertEqual(no_op(10),20)
 
 if __name__ == "__main__":
 	unittest.main()
